@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="P/T net">
+<token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<place id="Bazylia">
+<graphics>
+<position x="90.0" y="435.0"/>
+</graphics>
+<name>
+<value>Bazylia</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Czarne Oliwki">
+<graphics>
+<position x="90.0" y="495.0"/>
+</graphics>
+<name>
+<value>Czarne Oliwki</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Czerwona cebula">
+<graphics>
+<position x="90.0" y="375.0"/>
+</graphics>
+<name>
+<value>Czerwona cebula</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Feta">
+<graphics>
+<position x="90.0" y="555.0"/>
+</graphics>
+<name>
+<value>Feta</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Miska">
+<graphics>
+<position x="90.0" y="20.0"/>
+</graphics>
+<name>
+<value>Miska</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Miska(Sa&#322;ata + Sól)">
+<graphics>
+<position x="810.0" y="195.0"/>
+</graphics>
+<name>
+<value>Miska(Sa&#322;ata + Sól)</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula)">
+<graphics>
+<position x="975.0" y="315.0"/>
+</graphics>
+<name>
+<value>Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula)</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki)">
+<graphics>
+<position x="810.0" y="510.0"/>
+</graphics>
+<name>
+<value>Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki)</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki); Wymieszane!">
+<graphics>
+<position x="810.0" y="600.0"/>
+</graphics>
+<name>
+<value>Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki); Wymieszane!</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta)">
+<graphics>
+<position x="870.0" y="675.0"/>
+</graphics>
+<name>
+<value>Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta)</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta + Oliwa + Oregano + Sól)">
+<graphics>
+<position x="705.0" y="780.0"/>
+</graphics>
+<name>
+<value>Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta + Oliwa + Oregano + Sól)</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Miska z oliw&#261; na dnie">
+<graphics>
+<position x="600.0" y="45.0"/>
+</graphics>
+<name>
+<value>Miska z oliw&#261; na dnie</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Ogórki">
+<graphics>
+<position x="90.0" y="315.0"/>
+</graphics>
+<name>
+<value>Ogórki</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Oliwa">
+<graphics>
+<position x="90.0" y="75.0"/>
+</graphics>
+<name>
+<value>Oliwa</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Oliwa + Oregano + Sól">
+<graphics>
+<position x="435.0" y="105.0"/>
+</graphics>
+<name>
+<value>Oliwa + Oregano + Sól</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Oregano">
+<graphics>
+<position x="90.0" y="135.0"/>
+</graphics>
+<name>
+<value>Oregano</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Pokrojona Cebula">
+<graphics>
+<position x="465.0" y="375.0"/>
+</graphics>
+<name>
+<value>Pokrojona Cebula</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Pokrojone ogórki">
+<graphics>
+<position x="375.0" y="315.0"/>
+</graphics>
+<name>
+<value>Pokrojone ogórki</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Pokrojone pomidory">
+<graphics>
+<position x="360.0" y="255.0"/>
+</graphics>
+<name>
+<value>Pokrojone pomidory</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Pomidory">
+<graphics>
+<position x="90.0" y="255.0"/>
+</graphics>
+<name>
+<value>Pomidory</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Sa&#322;ata lodowa">
+<graphics>
+<position x="90.0" y="195.0"/>
+</graphics>
+<name>
+<value>Sa&#322;ata lodowa</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Sa&#322;ata w misce">
+<graphics>
+<position x="570.0" y="195.0"/>
+</graphics>
+<name>
+<value>Sa&#322;ata w misce</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Sól">
+<graphics>
+<position x="90.0" y="615.0"/>
+</graphics>
+<name>
+<value>Sól</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Umyta Sa&#322;ata">
+<graphics>
+<position x="300.0" y="195.0"/>
+</graphics>
+<name>
+<value>Umyta Sa&#322;ata</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="Add Basil 'n Black Olives">
+<graphics>
+<position x="570.0" y="435.0"/>
+</graphics>
+<name>
+<value>Add Basil 'n Black Olives</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Add Feta 'n more Basil">
+<graphics>
+<position x="360.0" y="525.0"/>
+</graphics>
+<name>
+<value>Add Feta 'n more Basil</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Add salt">
+<graphics>
+<position x="675.0" y="195.0"/>
+</graphics>
+<name>
+<value>Add salt</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Add Tomatoes, Cucumbers 'n Onions">
+<graphics>
+<position x="630.0" y="330.0"/>
+</graphics>
+<name>
+<value>Add Tomatoes, Cucumbers 'n Onions</value>
+<graphics>
+<offset x="3.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Gently Stir">
+<graphics>
+<position x="915.0" y="510.0"/>
+</graphics>
+<name>
+<value>Gently Stir</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Mix">
+<graphics>
+<position x="285.0" y="105.0"/>
+</graphics>
+<name>
+<value>Mix</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Pour some olive">
+<graphics>
+<position x="285.0" y="30.0"/>
+</graphics>
+<name>
+<value>Pour some olive</value>
+<graphics>
+<offset x="0.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Pour with OOS">
+<graphics>
+<position x="420.0" y="675.0"/>
+</graphics>
+<name>
+<value>Pour with OOS</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Skin, Cut in half 'n Slice into Thin Discs">
+<graphics>
+<position x="330.0" y="375.0"/>
+</graphics>
+<name>
+<value>Skin, Cut in half 'n Slice into Thin Discs</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Skin 'n Cut into Slices">
+<graphics>
+<position x="240.0" y="315.0"/>
+</graphics>
+<name>
+<value>Skin 'n Cut into Slices</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Slice 'n Put in Blow">
+<graphics>
+<position x="450.0" y="195.0"/>
+</graphics>
+<name>
+<value>Slice 'n Put in Blow</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Slice into Cubes">
+<graphics>
+<position x="210.0" y="255.0"/>
+</graphics>
+<name>
+<value>Slice into Cubes</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Wash 'n Dry">
+<graphics>
+<position x="195.0" y="195.0"/>
+</graphics>
+<name>
+<value>Wash 'n Dry</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="Add Basil 'n Black Olives to Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki)" source="Add Basil 'n Black Olives" target="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki)">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="586" y="452" curvePoint="false"/>
+<arcpath id="001" x="807" y="517" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Add Feta 'n more Basil to Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta)" source="Add Feta 'n more Basil" target="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta)">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="376" y="542" curvePoint="false"/>
+<arcpath id="001" x="867" y="682" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Add salt to Miska(Sa&#322;ata + Sól)" source="Add salt" target="Miska(Sa&#322;ata + Sól)">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="691" y="207" curvePoint="false"/>
+<arcpath id="001" x="807" y="207" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Add Tomatoes, Cucumbers 'n Onions to Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula)" source="Add Tomatoes, Cucumbers 'n Onions" target="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula)">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="646" y="348" curvePoint="false"/>
+<arcpath id="001" x="972" y="327" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Bazylia to Add Basil 'n Black Olives" source="Bazylia" target="Add Basil 'n Black Olives">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="446" curvePoint="false"/>
+<arcpath id="001" x="577" y="442" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Bazylia to Add Feta 'n more Basil" source="Bazylia" target="Add Feta 'n more Basil">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="451" curvePoint="false"/>
+<arcpath id="001" x="367" y="532" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Czarne Oliwki to Add Basil 'n Black Olives" source="Czarne Oliwki" target="Add Basil 'n Black Olives">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="505" curvePoint="false"/>
+<arcpath id="001" x="576" y="452" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Czerwona cebula to Skin, Cut in half 'n Slice into Thin Discs" source="Czerwona cebula" target="Skin, Cut in half 'n Slice into Thin Discs">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="387" curvePoint="false"/>
+<arcpath id="001" x="336" y="387" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Feta to Add Feta 'n more Basil" source="Feta" target="Add Feta 'n more Basil">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="565" curvePoint="false"/>
+<arcpath id="001" x="366" y="542" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Gently Stir to Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki); Wymieszane!" source="Gently Stir" target="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki); Wymieszane!">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="921" y="527" curvePoint="false"/>
+<arcpath id="001" x="833" y="602" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Miska(Sa&#322;ata + Sól) to Add Tomatoes, Cucumbers 'n Onions" source="Miska(Sa&#322;ata + Sól)" target="Add Tomatoes, Cucumbers 'n Onions">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="809" y="215" curvePoint="false"/>
+<arcpath id="001" x="647" y="334" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula) to Add Basil 'n Black Olives" source="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula)" target="Add Basil 'n Black Olives">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="972" y="331" curvePoint="false"/>
+<arcpath id="001" x="587" y="442" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki); Wymieszane! to Add Feta 'n more Basil" source="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki); Wymieszane!" target="Add Feta 'n more Basil">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="807" y="609" curvePoint="false"/>
+<arcpath id="001" x="377" y="532" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki) to Gently Stir" source="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki)" target="Gently Stir">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="836" y="521" curvePoint="false"/>
+<arcpath id="001" x="922" y="517" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta) to Pour with OOS" source="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta)" target="Pour with OOS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="867" y="686" curvePoint="false"/>
+<arcpath id="001" x="437" y="682" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Miska to Pour some olive" source="Miska" target="Pour some olive">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="32" curvePoint="false"/>
+<arcpath id="001" x="291" y="42" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Miska z oliw&#261; na dnie to Slice 'n Put in Blow" source="Miska z oliw&#261; na dnie" target="Slice 'n Put in Blow">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="601" y="67" curvePoint="false"/>
+<arcpath id="001" x="467" y="202" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Mix to Oliwa + Oregano + Sól" source="Mix" target="Oliwa + Oregano + Sól">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="301" y="117" curvePoint="false"/>
+<arcpath id="001" x="432" y="117" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Ogórki to Skin 'n Cut into Slices" source="Ogórki" target="Skin 'n Cut into Slices">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="327" curvePoint="false"/>
+<arcpath id="001" x="246" y="327" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Oliwa + Oregano + Sól to Pour some olive" source="Oliwa + Oregano + Sól" target="Pour some olive">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="433" y="110" curvePoint="false"/>
+<arcpath id="001" x="301" y="47" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Oliwa + Oregano + Sól to Pour with OOS" source="Oliwa + Oregano + Sól" target="Pour with OOS">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="446" y="131" curvePoint="false"/>
+<arcpath id="001" x="432" y="672" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Oliwa to Mix" source="Oliwa" target="Mix">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="89" curvePoint="false"/>
+<arcpath id="001" x="292" y="112" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Oregano to Mix" source="Oregano" target="Mix">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="145" curvePoint="false"/>
+<arcpath id="001" x="291" y="122" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Pokrojona Cebula to Add Tomatoes, Cucumbers 'n Onions" source="Pokrojona Cebula" target="Add Tomatoes, Cucumbers 'n Onions">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="491" y="383" curvePoint="false"/>
+<arcpath id="001" x="636" y="345" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Pokrojone ogórki to Add Tomatoes, Cucumbers 'n Onions" source="Pokrojone ogórki" target="Add Tomatoes, Cucumbers 'n Onions">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="401" y="327" curvePoint="false"/>
+<arcpath id="001" x="637" y="339" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Pokrojone pomidory to Add Tomatoes, Cucumbers 'n Onions" source="Pokrojone pomidory" target="Add Tomatoes, Cucumbers 'n Onions">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="386" y="270" curvePoint="false"/>
+<arcpath id="001" x="637" y="333" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Pomidory to Slice into Cubes" source="Pomidory" target="Slice into Cubes">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="267" curvePoint="false"/>
+<arcpath id="001" x="216" y="267" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Pour some olive to Miska z oliw&#261; na dnie" source="Pour some olive" target="Miska z oliw&#261; na dnie">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="302" y="37" curvePoint="false"/>
+<arcpath id="001" x="597" y="56" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Pour with OOS to Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta + Oliwa + Oregano + Sól)" source="Pour with OOS" target="Miska(Sa&#322;ata + Sól + Pomidory + Ogórki + Cebula + Bazylia + Oliwki + Feta + Oliwa + Oregano + Sól)">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="436" y="692" curvePoint="false"/>
+<arcpath id="001" x="702" y="786" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Sa&#322;ata lodowa to Wash 'n Dry" source="Sa&#322;ata lodowa" target="Wash 'n Dry">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="116" y="207" curvePoint="false"/>
+<arcpath id="001" x="201" y="207" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Sa&#322;ata w misce to Add salt" source="Sa&#322;ata w misce" target="Add salt">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="596" y="206" curvePoint="false"/>
+<arcpath id="001" x="682" y="202" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Skin, Cut in half 'n Slice into Thin Discs to Pokrojona Cebula" source="Skin, Cut in half 'n Slice into Thin Discs" target="Pokrojona Cebula">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="346" y="387" curvePoint="false"/>
+<arcpath id="001" x="462" y="387" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Skin 'n Cut into Slices to Pokrojone ogórki" source="Skin 'n Cut into Slices" target="Pokrojone ogórki">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="256" y="327" curvePoint="false"/>
+<arcpath id="001" x="372" y="327" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Slice 'n Put in Blow to Sa&#322;ata w misce" source="Slice 'n Put in Blow" target="Sa&#322;ata w misce">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="466" y="212" curvePoint="false"/>
+<arcpath id="001" x="567" y="207" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Slice into Cubes to Pokrojone pomidory" source="Slice into Cubes" target="Pokrojone pomidory">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="226" y="267" curvePoint="false"/>
+<arcpath id="001" x="357" y="267" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Sól to Add salt" source="Sól" target="Add salt">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="114" y="618" curvePoint="false"/>
+<arcpath id="001" x="681" y="212" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Sól to Add Tomatoes, Cucumbers 'n Onions" source="Sól" target="Add Tomatoes, Cucumbers 'n Onions">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="115" y="620" curvePoint="false"/>
+<arcpath id="001" x="636" y="351" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Sól to Mix" source="Sól" target="Mix">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="107" y="613" curvePoint="false"/>
+<arcpath id="001" x="297" y="132" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Umyta Sa&#322;ata to Slice 'n Put in Blow" source="Umyta Sa&#322;ata" target="Slice 'n Put in Blow">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="326" y="207" curvePoint="false"/>
+<arcpath id="001" x="456" y="207" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Wash 'n Dry to Umyta Sa&#322;ata" source="Wash 'n Dry" target="Umyta Sa&#322;ata">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="211" y="207" curvePoint="false"/>
+<arcpath id="001" x="297" y="207" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>

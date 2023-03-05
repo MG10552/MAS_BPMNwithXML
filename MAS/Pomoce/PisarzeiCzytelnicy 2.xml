@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="P/T net">
+<token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<place id="Czytany">
+<graphics>
+<position x="240.0" y="225.0"/>
+</graphics>
+<name>
+<value>Czytany</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Pisany">
+<graphics>
+<position x="450.0" y="225.0"/>
+</graphics>
+<name>
+<value>Pisany</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Plik">
+<graphics>
+<position x="315.0" y="45.0"/>
+</graphics>
+<name>
+<value>Plik</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="Czytelnik">
+<graphics>
+<position x="240.0" y="135.0"/>
+</graphics>
+<name>
+<value>Czytelnik</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Czytelnik oddaje">
+<graphics>
+<position x="135.0" y="135.0"/>
+</graphics>
+<name>
+<value>Czytelnik oddaje</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Koniec pisania">
+<graphics>
+<position x="480.0" y="135.0"/>
+</graphics>
+<name>
+<value>Koniec pisania</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Pisarz">
+<graphics>
+<position x="405.0" y="135.0"/>
+</graphics>
+<name>
+<value>Pisarz</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>4.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="Czytany to Czytelnik oddaje" source="Czytany" target="Czytelnik oddaje">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="240" y="227" curvePoint="false"/>
+<arcpath id="001" x="151" y="152" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Czytelnik oddaje to Plik" source="Czytelnik oddaje" target="Plik">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="152" y="142" curvePoint="false"/>
+<arcpath id="001" x="313" y="63" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Czytelnik to Czytany" source="Czytelnik" target="Czytany">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="252" y="162" curvePoint="false"/>
+<arcpath id="001" x="252" y="222" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Koniec pisania to Plik" source="Koniec pisania" target="Plik">
+<graphics/>
+<inscription>
+<value>Default,4</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="486" y="147" curvePoint="false"/>
+<arcpath id="001" x="340" y="64" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Pisany to Koniec pisania" source="Pisany" target="Koniec pisania">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="467" y="223" curvePoint="false"/>
+<arcpath id="001" x="492" y="162" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Pisarz to Pisany" source="Pisarz" target="Pisany">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="417" y="162" curvePoint="false"/>
+<arcpath id="001" x="454" y="224" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Plik to Czytelnik" source="Plik" target="Czytelnik">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="317" y="68" curvePoint="false"/>
+<arcpath id="001" x="256" y="147" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Plik to Pisarz" source="Plik" target="Pisarz">
+<graphics/>
+<inscription>
+<value>Default,4</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="337" y="67" curvePoint="false"/>
+<arcpath id="001" x="411" y="147" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>
